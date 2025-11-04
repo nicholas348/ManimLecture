@@ -1,13 +1,13 @@
 from manim import *
 class Structure(Scene):#scene
     def construct(self):
-        # 创造一个text 物品
+        # 创造一个text 物品hello_world
         hello_world = Text("Hello, Manim!").scale(3)
 
-        # Display the text on the screen with a writing animation(amination)
+        # 渲染一个书写hello_world的动画
         self.play(Write(hello_world))
 
-        # Wait for 2 seconds before ending the scene
+        # 等待2秒
         self.wait(2)
 
 
@@ -17,8 +17,8 @@ if __name__ == "__main__":
     with tempconfig({"quality": "high_quality","preview": True}):
         scene = Structure()
         scene.render()
-# or use terminal command: manim -pql manim_structure.py Structure
-# -p: preview the video after rendering
-# -ql: quality low
-# -qm: quality medium
-# -qh: quality high
+# 或者可以使用终端渲染
+# -p: 是否预览
+# -ql: 低画质
+# -qm: 中等画质
+# -qh: 高画质
