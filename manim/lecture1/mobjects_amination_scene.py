@@ -7,8 +7,6 @@ class MobjectsAnimation(Scene):#scene
         mobject3 = Triangle(color=GREEN).shift(LEFT * 2)
 
         #不同的animation效果
-        self.add(mobject1,mobject2,mobject3)
-        self.wait(2)
         self.play(FadeIn(mobject1),Create(mobject2),Write(mobject3))
         self.wait(2)
         self.play(mobject1.animate.shift(UP*2),mobject2.animate.rotate(PI/4),mobject3.animate.scale(1.5))
