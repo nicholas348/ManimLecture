@@ -1,7 +1,7 @@
 from manim import *
 class Structure(Scene):#scene
     def construct(self):
-        # Create a text mobject(mobject(
+        # 创造一个text 物品
         hello_world = Text("Hello, Manim!").scale(3)
 
         # Display the text on the screen with a writing animation(amination)
@@ -9,9 +9,6 @@ class Structure(Scene):#scene
 
         # Wait for 2 seconds before ending the scene
         self.wait(2)
-
-
-
 
 
 
