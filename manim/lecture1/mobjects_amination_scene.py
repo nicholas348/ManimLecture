@@ -48,6 +48,6 @@ class ValueTrackerExampleOfIncrement(Scene):
 
 
 if __name__ == "__main__":
-    with tempconfig({"renderer": "cairo"}):
+    with tempconfig({"renderer": "cairo","preview":True}):
         scene = MobjectsAnimation()
         scene.render()
