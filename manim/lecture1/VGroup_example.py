@@ -10,6 +10,6 @@ class VGroupExample(Scene):
         self.play(DotsVG[4].animate.shift(DOWN))
         self.wait(2)
 if __name__ == "__main__":
-    with tempconfig({"renderer": "cairo"}):
+    with tempconfig({"renderer": "cairo","preview":True}):
         scene = VGroupExample()
         scene.render()

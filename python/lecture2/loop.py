@@ -6,9 +6,17 @@ print("-------------------------------------------------------------------------
 for loop_time in range(0, 10, 2):#从0~9循环，步长为2
     print("Loop time:", loop_time)
 
-
 for loop_time in range(5):#从0~4循环
     print("Loop time:", loop_time)
+
+
+
+
+print("------------------------------------------------------------------------------")
+#打印1 10次
+for _ in range(10):
+    print(1)
+
 
 
 print("------------------------------------------------------------------------------")
@@ -60,6 +68,7 @@ value = 0
 while value <10:
     print(f"while loop value:{value}")
     if value==5:
+        value += 1
         continue
     print(f"program actually executed")
     value+= 1

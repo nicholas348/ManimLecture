@@ -1,0 +1,11 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/niuyingkai/PycharmProjects/lecture/manim/lecture1/media/videos/1080p60/partial_movie_files/MobjectsAnimation/3977891868_2428589027_223132457.mp4'
+file 'file:/Users/niuyingkai/PycharmProjects/lecture/manim/lecture1/media/videos/1080p60/partial_movie_files/MobjectsAnimation/2852726489_2408024828_1453073091.mp4'
+file 'file:/Users/niuyingkai/PycharmProjects/lecture/manim/lecture1/media/videos/1080p60/partial_movie_files/MobjectsAnimation/2852726489_859364888_1928939277.mp4'
+file 'file:/Users/niuyingkai/PycharmProjects/lecture/manim/lecture1/media/videos/1080p60/partial_movie_files/MobjectsAnimation/2852726489_2408024828_1735181772.mp4'
+file 'file:/Users/niuyingkai/PycharmProjects/lecture/manim/lecture1/media/videos/1080p60/partial_movie_files/MobjectsAnimation/2852726489_4051554402_2681985263.mp4'
+file 'file:/Users/niuyingkai/PycharmProjects/lecture/manim/lecture1/media/videos/1080p60/partial_movie_files/MobjectsAnimation/2852726489_2408024828_3278671325.mp4'
+file 'file:/Users/niuyingkai/PycharmProjects/lecture/manim/lecture1/media/videos/1080p60/partial_movie_files/MobjectsAnimation/2852726489_2285759413_3282659717.mp4'
+file 'file:/Users/niuyingkai/PycharmProjects/lecture/manim/lecture1/media/videos/1080p60/partial_movie_files/MobjectsAnimation/2852726489_1734327179_1093031319.mp4'
+file 'file:/Users/niuyingkai/PycharmProjects/lecture/manim/lecture1/media/videos/1080p60/partial_movie_files/MobjectsAnimation/2852726489_3464074632_1184315803.mp4'
+file 'file:/Users/niuyingkai/PycharmProjects/lecture/manim/lecture1/media/videos/1080p60/partial_movie_files/MobjectsAnimation/2852726489_1839128356_3196764103.mp4'
