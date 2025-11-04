@@ -4,6 +4,11 @@ class VGroupExample(Scene):
         dots = [Dot() for _ in range(10)]
         DotsVG = VGroup(dots).arrange(RIGHT)
         self.add(DotsVG)
+        self.wait(5)
+        self.play(DotsVG.animate.shift(UP))
+        self.wait(2)
+        self.play(DotsVG[4].animate.shift(DOWN))
+        self.wait(2)
 if __name__ == "__main__":
     with tempconfig({"renderer": "cairo"}):
         scene = VGroupExample()
