@@ -6,6 +6,8 @@ print(pi)
 
 
 #常见库 1:numpy
+
+
 import numpy as np
 
 # 1. CREATING ARRAYS
