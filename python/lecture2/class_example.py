@@ -33,6 +33,8 @@ class AlaskaMalamute(Dog):#定义了一个名为AlaskaMalamute的类，继承自
         print(f"{self.breed} is working in snow")
     def eat(self):
         print(f"{self.breed} is eating a lot")#重写了父类Dog的eat方法，表示Alaska Malamute吃得很多
+    def __add__(self):
+        self.age +=1
 my_dog4 = AlaskaMalamute(5)#创建了一个AlaskaMalamute类的实例my_dog4，年龄为5
 my_dog4.eat()#让my_dog4对象调用eat方法，输出"Alaska Malamute is eating a lot"
 my_dog4.work()#让my_dog4对象调用work方法，输出 "Alaska Malamute is working in snow"

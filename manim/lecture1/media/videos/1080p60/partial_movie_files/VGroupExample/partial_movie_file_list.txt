@@ -1,7 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:/Users/niuyingkai/PycharmProjects/lecture/manim/lecture1/media/videos/1080p60/partial_movie_files/VGroupExample/3977891868_4130977433_223132457.mp4'
-file 'file:/Users/niuyingkai/PycharmProjects/lecture/manim/lecture1/media/videos/1080p60/partial_movie_files/VGroupExample/2852726489_2015106682_1756315414.mp4'
-file 'file:/Users/niuyingkai/PycharmProjects/lecture/manim/lecture1/media/videos/1080p60/partial_movie_files/VGroupExample/2852726489_4203471792_2375220172.mp4'
-file 'file:/Users/niuyingkai/PycharmProjects/lecture/manim/lecture1/media/videos/1080p60/partial_movie_files/VGroupExample/2852726489_2408024828_1125880146.mp4'
-file 'file:/Users/niuyingkai/PycharmProjects/lecture/manim/lecture1/media/videos/1080p60/partial_movie_files/VGroupExample/2852726489_3482137960_970344306.mp4'
-file 'file:/Users/niuyingkai/PycharmProjects/lecture/manim/lecture1/media/videos/1080p60/partial_movie_files/VGroupExample/2852726489_2408024828_3748599358.mp4'
