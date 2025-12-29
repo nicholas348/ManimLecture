@@ -81,7 +81,7 @@ reshaped = flat.reshape(3, 4) # Changes 1x12 into 3x4
 print(f"Reshaped 3x4 Matrix:\n{reshaped}")
 
 
-import numpy as np
+
 from scipy import optimize, interpolate, integrate, linalg
 import matplotlib.pyplot as plt
 
