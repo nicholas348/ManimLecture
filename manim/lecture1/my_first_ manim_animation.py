@@ -7,8 +7,4 @@ class MyFirstManimAnimation(Scene):
         self.play(Write(hello_manim))#书写 hello world
         self.wait(2)
 
-
-if __name__ == "__main__":#运行并渲染该脚本
-    with tempconfig({"renderer": "cairo","preview": True}):
-        test = MyFirstManimAnimation()
-        test.render()
+"渲染：manim -qm -p (--renderer=opengl) my_first_ manim_animation.py MyFirstManimAnimation"
