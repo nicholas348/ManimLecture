@@ -2,7 +2,7 @@ from manim import *
 class Structure(Scene):#scene
     def construct(self):
         # 创造一个text 物品hello_world
-        hello_world = Text("Hello, Manim!").scale(3)
+        hello_world = Tex("Hello, Manim!").scale(3)
 
         # 渲染一个书写hello_world的动画
         self.play(Write(hello_world))
