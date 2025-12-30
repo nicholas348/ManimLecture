@@ -1,5 +1,5 @@
 import numpy as np
-from scipy import optimize, interpolate, integrate, linalg
+from scipy import *
 
 # 1. OPTIMIZATION (Finding Minima/Maxima)
 # ---------------------------------------------------------

@@ -35,6 +35,6 @@ def Fibonacci(num):
     elif num == 1:
         return 1
     else:
-        return fibonacci(n - 1) + fibonacci(n - 2)
+        return Fibonacci(num - 1) + Fibonacci(num - 2)
 
 Fibonacci(6)#=8

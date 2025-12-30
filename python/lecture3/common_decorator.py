@@ -1,4 +1,4 @@
-import functools
+
 
 class Circle:
     def __init__(self, radius: float):
@@ -27,11 +27,7 @@ class Circle:
         return cls(diameter / 2)
 
 # 5. @functools.lru_cache - Caches function results to save time on heavy tasks
-@functools.lru_cache(maxsize=32)
-def fibonacci(n: int) -> int:
-    if n < 2:
-        return n
-    return fibonacci(n - 1) + fibonacci(n - 2)
+
 
 # --- Usage Examples ---
 
