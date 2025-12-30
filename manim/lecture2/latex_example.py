@@ -19,3 +19,8 @@ class Matrix(Scene):
     def construct(self):
         matrix = Matrix([[1,2,3],[4,5,6],[7,8,9]])
         self.add(matrix)
+
+class Fraction(Scene):
+    def construct(self):
+        fraction = MathTex(r"{x^3+1\over x+1}=x^2-x+1")
+        self.add(fraction)
