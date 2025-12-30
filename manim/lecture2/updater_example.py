@@ -1,6 +1,8 @@
 import random
 from manim import ManimColor as Color
 from manim import *
+
+
 class LabelUpdater(Scene):
     def construct(self):
         square = Square()
@@ -12,6 +14,7 @@ class LabelUpdater(Scene):
         self.add(square, label)
         self.play(square.animate.shift(RIGHT * 3 + UP * 2))
         self.play(square.animate.rotate(PI/4))
+
 
 class DotColorUpdater(Scene):
     def construct(self):
