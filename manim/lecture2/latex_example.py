@@ -24,3 +24,4 @@ class Fraction(Scene):
     def construct(self):
         fraction = MathTex(r"{x^3+1\over x+1}=x^2-x+1")
         self.add(fraction)
+
