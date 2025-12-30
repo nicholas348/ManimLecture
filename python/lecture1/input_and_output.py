@@ -7,8 +7,6 @@ hello_world_text = "helloworld"
 print(hello_world_text)
 
 
-
-
 hello = "hello"
 world = "world"
 print(hello + " " + world)  # 使用字符串连接输出 "hello world"
