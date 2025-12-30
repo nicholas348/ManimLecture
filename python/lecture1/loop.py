@@ -21,13 +21,7 @@ for _ in range(10):
 
 print("------------------------------------------------------------------------------")
 
-list_for_loop = [i**2 for i in range(5)]#列表推导式，生成0~4的平方列表
-#list_for_loop = [0, 1, 4, 9, 16]
 
-another_list_for_loop = [[j for j in range(i)] for i in range(10)]
-#another_list_for_loop  = [[0],[0,1],[0,1,2],....,[0,1,2,3,4,5,6,7,8,9]]
-list_for_loop_3 = [3 for i in range(10)]
-#list_for_loop = [3,3,3,3,3,3,3,3,3,3]
 
 print("------------------------------------------------------------------------------")
 value = 0
