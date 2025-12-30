@@ -3,7 +3,7 @@ from manim import *
 
 class OpenglIntro(Scene):
     def construct(self):
-        cube = Cube(side_length=3, fill_opacity=1).set_color(ORANGE)
+        cube = Cube(side_length=3, fill_opacity=1).set_color(BLUE)
         cube.set_stroke(width=0)  # Removing edges makes lighting look better
         self.play(Create(cube))
         self.wait(2)
