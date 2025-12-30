@@ -3,25 +3,6 @@ from manim import *
 
 class OpenglIntro(Scene):
     def construct(self):
-        cube = Cube(side_length=3, fill_opacity=1).set_color(BLUE)
-        cube.set_stroke(width=0)  # Removing edges makes lighting look better
-        self.play(Create(cube))
-        self.wait(2)
-        self.play(Uncreate(cube))
-        self.wait(1)
-        text=MathTex(r"e^{i\pi} + 1 = 0").scale(3)
-        self.play(Write(text))
-        self.wait(1)
-        self.play(Uncreate(text))
-        self.wait(1)
-
-        text_interaction=Text(
-            "然后现在你可以在终端里输入文本开始交互了"
-        )
-        self.play(Write(text_interaction))
-        self.wait(1)
-        self.play(Uncreate(text_interaction))
-        self.wait(1)
         self.interactive_embed()
 
 
@@ -44,3 +25,4 @@ class OpenGLLight(ThreeDScene):
             run_time=3
         )
         self.wait()
+        self.interactive_embed()
