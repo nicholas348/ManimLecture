@@ -22,7 +22,6 @@ class ValueTrackerExample(Scene):
         self.wait(0.5)
 
 
-
 class ValueTrackerExampleOfIncrement(Scene):
     def construct(self):
         tracker = ValueTracker(0)
