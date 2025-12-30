@@ -22,3 +22,4 @@ if __name__ == "__main__":
 # -ql: 低画质
 # -qm: 中等画质
 # -qh: 高画质
+#--renderer=opengl 使用opengl渲染
