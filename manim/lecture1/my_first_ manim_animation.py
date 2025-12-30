@@ -4,7 +4,7 @@ class MyFirstManimAnimation(Scene):
         self.wait(1)#等待一秒
         hello_manim = Tex("hello, Manim!").scale(3)
 
-        self.play(Write(hello_manim))#书写 hello world
-        self.wait(2)
+        self.add(hello_manim)#书写 hello world
 
-"渲染：manim -qm -p (--renderer=opengl) my_first_ manim_animation.py MyFirstManimAnimation"
+
+"""渲染：manim -qm -p (--renderer=opengl) my_first_ manim_animation.py MyFirstManimAnimation"""

@@ -25,7 +25,6 @@ class Vector:
     def __eq__(self, other):
         """Defines behavior for the '==' operator."""
         return self.x == other.x and self.y == other.y
-
     def __len__(self):
         """Defines behavior for the len() function."""
         # For a vector, let's return the number of dimensions
