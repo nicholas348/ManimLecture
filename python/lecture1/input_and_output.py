@@ -20,6 +20,6 @@ hello = "Hello"
 world = "World"
 
 # 7. 连接字符串
-print(hello + " " + world)# 方法一：在要连接的字符串之间写一个加号
-print(f"{hello} {world}")# 方法二：使用f-string语法输出时，可以直接拼接由大括号包括的变量名
-print(hello, world)# 方式三：在两个要连接的字符串的名字之间添加一个逗号隔开
+print(hello + " " + world)  # 方法一：在要连接的字符串之间写一个加号
+print(f"{hello} {world}")  # 方法二：使用f-string语法输出时，可以直接拼接由大括号包括的变量名
+print(hello, world)  # 方式三：在两个要连接的字符串的名字之间添加一个逗号隔开
