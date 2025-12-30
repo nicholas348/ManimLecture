@@ -15,6 +15,13 @@ list_count = my_list.count(7)  # 元素出现次数 (结果: 1)
 list_len = len(my_list) # 长度 (结果: 6)
 list_disorderd = [1,15,2,4,9,6]
 list_disorderd.sort()#list = disorderd = [1,2,4,6,9,15]
+list_for_loop = [i**2 for i in range(5)]#列表推导式，生成0~4的平方列表
+#list_for_loop = [0, 1, 4, 9, 16]
+
+another_list_for_loop = [[j for j in range(i)] for i in range(10)]
+#another_list_for_loop  = [[0],[0,1],[0,1,2],....,[0,1,2,3,4,5,6,7,8,9]]
+list_for_loop_3 = [3 for i in range(10)]
+#list_for_loop = [3,3,3,3,3,3,3,3,3,3]
 
 # 列表的常见错误
 # print(my_list.remove('missing')) # 错误：ValueError: list.remove(x): x not in list
