@@ -10,8 +10,8 @@ class LabelUpdater(Scene):
         label.add_updater(lambda m: m.next_to(square, UP))
 
         self.add(square, label)
-        self.play(square.animate.shift(RIGHT * 3 + UP * 2)) # Label follows!
-        self.play(square.animate.rotate(PI/4))             # Label stays on top!
+        self.play(square.animate.shift(RIGHT * 3 + UP * 2))
+        self.play(square.animate.rotate(PI/4))
 
 class DotColorUpdater(Scene):
     def construct(self):
