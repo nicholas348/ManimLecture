@@ -12,7 +12,7 @@ class NavierStokesEquation(Scene):
 
 class LagrangianEquation(Scene):
     def construct(self):
-        text=MathTex(r"\frac{d}{dt} \int_{\Omega} \rho \mathbf{u} \cdot \mathbf{u} \, dV = 0")
+        text=MathTex(r"\frac{d}{dt} \frac{\partial \mathcal{L}}{\partial \dot q}-\frac{\partial \mathcal{L}}{\partial q} = 0")
         self.add(text)
 
 class Matrix(Scene):
