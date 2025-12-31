@@ -37,7 +37,8 @@ my_dog2 = Dog("chihuahua", 2)
 #创建了一个Dog类的实例my_dog3，品种为"husky"，年龄为6
 my_dog3 = Dog("husky", 6)
 
-my_dog2.eat()#让my_dog2对象调用eat方法，输出"chihuahua is eating"
+#让my_dog2对象调用eat方法，输出"chihuahua is eating"
+my_dog2.eat()
 
 
 
