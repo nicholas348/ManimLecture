@@ -11,7 +11,7 @@ print("2. 元组转列表 list_from_tuple =", list_from_tuple)
 list_from_str = list("abc")
 print("3. 字符串转列表 list_from_str =", list_from_str)
 
-print("-" * 20) # 输出了一条分界线
+print("-" * 20) # 输出了一条分界线+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 # 列表的核心操作方法(列表在读取元素的时候，会考虑其类型)
 # 末尾追加元素
@@ -42,6 +42,8 @@ print("11. 1 在 my_list 中出现的次数 list_count =", list_count)
 list_len = len(my_list)
 print("12. my_list 的长度 list_len =", list_len)
 
+print("-" * 20) # 输出了一条分界线+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 # 列表排序与推导式
 list_disorderd = [1, 15, 2, 4, 9, 6]
 print("13. 初始无序列表 list_disorderd =", list_disorderd)
@@ -61,14 +63,19 @@ print("17. 10个3重复列表 list_for_loop_3 =", list_for_loop_3)
 
 
 #====================元组（Tuple）- 有序、不可变、支持混合类型元素====================
+print("=" * 100) # 输出了一条更显眼的分界线
 
 
 # 元组定义与类型转换
-my_tuple = (1, 'two', 3.0)
-single_element_tuple = (42,)  # 单元素元组必须带逗号
-tuple_from_list = tuple([5, 6, 7])  # 列表转元组
+my_tuple = (1, 'two', 3.0) # 中括号内的三个元素就是元组里存储的3个元素。它们的类型分别是“int，string，float”
+# 单元素元组必须带逗号
+single_element_tuple = (42,)
+# 列表转元组(在line8讲解了如何将元组转列表)
+tuple_from_list = tuple([5, 6, 7])
 
-# 元组的核心操作方法
+print("-" * 20) # 输出了一条分界线+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# 元组的核心操作方法(元组在读取元素的时候，会考虑其类型)
 tuple_concat = my_tuple + (4,)  # 元组拼接（生成新元组，原元组不变）
 tuple_count = my_tuple.count('two')  # 统计元素出现次数
 tuple_index = my_tuple.index(3.0)  # 查找元素首次出现的索引
@@ -77,6 +84,8 @@ tuple_index_access = my_tuple[0]  # 索引访问元素（仅可读）
 
 
 #====================集合（Set）- 无序、可变、无重复、元素必须不可变====================
+
+
 # 集合定义与类型转换
 my_set = {1, 2, 'three', 4}
 set_from_list = set([4, 5, 5, 6])  # 列表转集合（自动去重）
