@@ -1,34 +1,75 @@
+"""
 # 列表定义与类型转换
-my_list = [1, 'two', 3.0, True]
-list_from_tuple = list((4, 5, 6))  # tuple转list (结果: [4, 5, 6])
-list_from_str = list("abc") # string转list (结果: ['a', 'b', 'c'])
+"""
+my_list = [1, 'two', 3.0, True]#声明一个list
 
-# 列表的方法 (列表是可变类型)
-my_list.append('new')  # 添加到末尾 (my_list: [1, 'two', 3.0, True, 'new'])
-my_list.insert(1, 'inserted')  # 插入到指定位置 (my_list: [1, 'inserted', 'two', 3.0, True, 'new'])
-my_list.extend([7, 8])  # 扩展列表 (my_list: [..., 'new', 7, 8])
-my_list.pop()  # 移除并返回最后一个元素 (返回: 8, my_list: [..., 'new', 7])
-my_list.remove('two')  # 移除第一个匹配项 (my_list: [1, 'inserted', 3.0, True, 'new', 7])
-my_list[0] = 100  # 修改元素 (my_list: [100, 'inserted', 3.0, True, 'new', 7])
-list_index = my_list.index(3.0)  # 查找元素索引 (结果: 2)
-list_count = my_list.count(7)  # 元素出现次数 (结果: 1)
-list_len = len(my_list) # 长度 (结果: 6)
-list_disorderd = [1,15,2,4,9,6]
-list_disorderd.sort()#list = disorderd = [1,2,4,6,9,15]
-list_for_loop = [i**2 for i in range(5)]#列表推导式，生成0~4的平方列表
+# tuple转list (结果: [4, 5, 6])
+list_from_tuple = list((4, 5, 6))
+
+# string转list (结果: ['a', 'b', 'c'])
+list_from_str = list("abc")
+
+"""
+使用for循环生成list
+"""
+#列表推导式，生成0~4的平方列表
+list_for_loop = [i**2 for i in range(5)]
 #list_for_loop = [0, 1, 4, 9, 16]
 
 another_list_for_loop = [[j for j in range(i)] for i in range(10)]
 #another_list_for_loop  = [[0],[0,1],[0,1,2],....,[0,1,2,3,4,5,6,7,8,9]]
-list_for_loop_3 = [3 for i in range(10)]
+list_for_loop_3 = [3 for _ in range(10)]
+
 #list_for_loop = [3,3,3,3,3,3,3,3,3,3]
 
-# 列表的常见错误
+
+"""
+列表的方法 (列表是可变类型)
+"""
+
+# 添加到末尾 (my_list: [1, 'two', 3.0, True, 'new'])
+my_list.append('new')
+
+# 插入到指定位置 (my_list: [1, 'inserted', 'two', 3.0, True, 'new'])
+my_list.insert(1, 'inserted')
+
+# 扩展列表 (my_list: [..., 'new', 7, 8])
+my_list.extend([7, 8])
+
+# 移除并返回最后一个元素 (返回: 8, my_list: [..., 'new', 7])
+my_list.pop()
+
+# 移除第一个匹配项 (my_list: [1, 'inserted', 3.0, True, 'new', 7])
+my_list.remove('two')
+
+# 修改元素 (my_list: [100, 'inserted', 3.0, True, 'new', 7])
+my_list[0] = 100
+
+# 查找元素索引 (结果: 2)
+list_index = my_list.index(3.0)
+
+# 元素出现次数 (结果: 1)
+list_count = my_list.count(7)
+
+# 长度 (结果: 6)
+list_len = len(my_list)
+
+#列表排序
+list_disorderd = [1,15,2,4,9,6]
+list_disorderd.sort()# list_disorderd =[1,2,4,6,9,15]
+
+
+
+"""
+列表的常见错误
+"""
 # print(my_list.remove('missing')) # 错误：ValueError: list.remove(x): x not in list
 # print(my_list[10])             # 错误：IndexError: list index out of range
 # list_from_tuple.sort(key=str)  # 错误：TypeError: '<' not supported between instances of 'str' and 'int' (如果元素类型不同)
 
-# --- 7. 元组 (tuple) ---
+"""
+--- 7. 元组 (tuple) ---
+"""
 
 # 元组定义与类型转换
 my_tuple = (1, 'two', 3.0)
@@ -84,27 +125,56 @@ dict_from_pairs = dict([('a', 1), ('b', 2)])  # 从元组列表创建 (结果: {
 dict_from_kwargs = dict(fruit='apple', color='red') # 使用关键字参数创建 (结果: {'fruit': 'apple', 'color': 'red'})
 empty_dict = {} # 创建空字典
 
-# 字典的访问与方法
-dict_value = my_dict['name']  # 通过键访问值 (结果: 'Alice')
-dict_safe_get = my_dict.get('country', 'USA')  # 安全访问，键不存在时返回默认值 'USA'
-dict_keys = my_dict.keys()  # 获取所有键 (结果: dict_keys(['name', 'age', 'city']))
-dict_values = my_dict.values()  # 获取所有值 (结果: dict_values(['Alice', 25, 'New York']))
-dict_items = my_dict.items()  # 获取所有键值对 (结果: dict_items([('name', 'Alice'), ('age', 25), ('city', 'New York')]))
+"""
+字典的访问与方法
+"""
+
+
+# 通过键访问值 (结果: 'Alice')
+dict_value = my_dict['name']
+
+# 安全访问，键不存在时返回默认值 'USA'
+dict_safe_get = my_dict.get('country', 'USA')
+
+# 获取所有键 (结果: dict_keys(['name', 'age', 'city']))
+dict_keys = my_dict.keys()
+
+# 获取所有值 (结果: dict_values(['Alice', 25, 'New York']))
+dict_values = my_dict.values()
+
+# 获取所有键值对 (结果: dict_items([('name', 'Alice'), ('age', 25), ('city', 'New York')]))
+dict_items = my_dict.items()
 dict_len = len(my_dict) # 长度 (结果: 3)
 
-# 字典的修改、添加与移除 (字典是可变类型)
-my_dict['age'] = 26  # 修改现有键的值 (my_dict: {'name': 'Alice', 'age': 26, 'city': 'New York'})
-my_dict['email'] = 'alice@example.com'  # 添加新的键值对 (my_dict: {'name': 'Alice', ..., 'email': '...'})
-dict_pop_value = my_dict.pop('city')  # 移除并返回指定键的值 (返回: 'New York', my_dict: {'name': 'Alice', 'age': 26, 'email': '...'})
-my_dict.update({'age': 27, 'zip': 10001})  # 合并/更新字典 (my_dict: {'name': 'Alice', 'age': 27, 'email': '...', 'zip': 10001})
-my_dict.clear() # 清空字典 (my_dict: {})
+"""
+字典的修改、添加与移除 (字典是可变类型)
+"""
+# 修改现有键的值 (my_dict: {'name': 'Alice', 'age': 26, 'city': 'New York'})
+my_dict['age'] = 26
 
-# 字典的常见错误
+# 添加新的键值对 (my_dict: {'name': 'Alice', ..., 'email': '...'})
+my_dict['email'] = 'alice@example.com'
+
+# 移除并返回指定键的值 (返回: 'New York', my_dict: {'name': 'Alice', 'age': 26, 'email': '...'})
+dict_pop_value = my_dict.pop('city')
+
+# 合并/更新字典 (my_dict: {'name': 'Alice', 'age': 27, 'email': '...', 'zip': 10001})
+my_dict.update({'age': 27, 'zip': 10001})
+
+# 清空字典 (my_dict: {})
+my_dict.clear()
+
+"""
+字典的常见错误
+"""
 temp_dict = {'a': 1, 'b': 2}
-# print(temp_dict['c'])                 # 错误：KeyError: 'c' (尝试访问不存在的键)
-# temp_dict[{1, 2}] = 'value'           # 错误：TypeError: unhashable type: 'set' (字典的键必须是不可变类型，如字符串、数字、元组)
-# temp_dict[[1, 2]] = 'value'           # 错误：TypeError: unhashable type: 'list' (列表是可变类型，不能作为键)
-# print(temp_dict.pop('d'))             # 错误：KeyError: 'd' (pop移除不存在的键，且未提供默认值)
+
+"""
+print(temp_dict['c'])                 # 错误：KeyError: 'c' (尝试访问不存在的键)
+temp_dict[{1, 2}] = 'value'           # 错误：TypeError: unhashable type: 'set' (字典的键必须是不可变类型，如字符串、数字、元组)
+temp_dict[[1, 2]] = 'value'           # 错误：TypeError: unhashable type: 'list' (列表是可变类型，不能作为键)
+print(temp_dict.pop('d'))             # 错误：KeyError: 'd' (pop移除不存在的键，且未提供默认值)
+"""
 
 
 
