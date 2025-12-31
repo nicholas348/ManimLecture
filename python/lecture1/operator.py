@@ -127,42 +127,53 @@ logic_not = not p     # not True，结果为 False
 """
 i = 5
 j = 10
+
 """
  简单赋值 (=)
 """
 i = 7     # i 的值变为 7
+
 """
  加法赋值 (+=)
 """
 i += 3    # i = i + 3， i 的值变为 10
+
 """
  乘法赋值 (*=)
 """
 j *= 2    # j = j * 2， j 的值变为 20
+
 """
  除法赋值 (/=)
 """
 j /= 4    # j = j / 4， j 的值变为 5.0 (注意结果类型变为 float)
+
 """
  幂赋值 (**=)
 """
+
 j = 2
 j **= 3   # j = j ** 3， j 的值变为 8
 """
  赋值运算符的错误示例
  5 = 10  # 错误：SyntaxError: cannot assign to literal (不能给常量赋值)
 """
+
+
+
 """
  ============================== 5. 身份运算符 ==============================
 """
 list_a = [1, 2, 3]
 list_b = [1, 2, 3]
 list_c = list_a  # c 和 a 引用同一个对象
+
 """
 # is：判断是否指向同一个内存地址
 """
 id_is = (list_a is list_b)  # 两个列表值相等，但不是同一个对象，结果为 False
 id_is_same = (list_a is list_c) # 引用同一个对象，结果为 True
+
 """
 # is not：判断是否不指向同一个内存地址
 """
@@ -175,7 +186,7 @@ int_2 = 100
 int_is = (int_1 is int_2) # True (Python 优化)
 
 """
- ============================== 6. 成员运算符 ==============================
+=============================== 6. 成员运算符 ==============================
 """
 
 my_list = ['apple', 'banana', 'cherry']
@@ -195,7 +206,6 @@ member_not_in_string = ('z' not in my_string)  # 结果为 True
 
 """
 成员运算符的错误示例
+print('a' in 123)  # 错误：TypeError: argument of type 'int' is not iterable (整数类型不可迭代)
+print('a' not in None) # 错误：TypeError: argument of type 'NoneType' is not iterable (NoneType不可迭代)
 """
-
-# print('a' in 123)  # 错误：TypeError: argument of type 'int' is not iterable (整数类型不可迭代)
-# print('a' not in None) # 错误：TypeError: argument of type 'NoneType' is not iterable (NoneType不可迭代)
