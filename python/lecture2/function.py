@@ -17,14 +17,16 @@ def factorial(n):#定义了一个计算阶乘的递归函数
     else:
         return n * factorial(n - 1)
 
-factorial(5)
-#5>0 #返回5*factorial(4)
-#4>0 #返回5*4*factorial(3)
-#3>0 #返回5*4*3*factorial(2)
-#2>0 #返回5*4*3*2*factorial(1)
-#1>0 #返回5*4*3*2*1*factorial(0)
-#0==0 #返回5*4*3*2*1*1
+print(factorial(5))
+"""
+5>0 #返回5*factorial(4)
+4>0 #返回5*4*factorial(3)
+3>0 #返回5*4*3*factorial(2)
+2>0 #返回5*4*3*2*factorial(1)
+1>0 #返回5*4*3*2*1*factorial(0)
+0==0 #返回5*4*3*2*1*1
 #最终结果为5*4*3*2*1*1=120
+"""
 
 
 
@@ -34,7 +36,19 @@ def Fibonacci(num):
         return 0
     elif num == 1:
         return 1
+    elif num == 2:
+        return 1
     else:
         return Fibonacci(num - 1) + Fibonacci(num - 2)
 
 Fibonacci(6)#=8
+"""
+=Fibonacci(5)                                               +Fibonacci(4)
+=Fibonacci(4)               +Fibonacci(3                    +Fibonacci(3)              +Fibonacci(2)
+=Fibonacci(3)+Fibonacci(2)  +Fibonacci(2)+Fibonacci(1)      +Fibonacci(2)+Fibonacci(1)     +1
+=Fibonacci(2)+Fibonacci(1)+1      +1         +1              +1            +1               +1
+=1+1+1+1+1+1+1+1
+=8
+
+
+"""
