@@ -13,7 +13,9 @@ class Intro3D(ThreeDScene):
         self.set_camera_orientation(phi=75 * DEGREES, theta=-45 * DEGREES)
 
         self.add(axes, sphere)
-        self.begin_ambient_camera_rotation(rate=0.1)  # Slowly rotate camera
+
+        # 以0.1的速率旋转相机,面对中心
+        self.begin_ambient_camera_rotation(rate=0.1)
         self.wait(3)
         self.stop_ambient_camera_rotation()
         

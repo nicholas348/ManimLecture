@@ -1,6 +1,6 @@
 class Vector:
     def __init__(self, x, y):
-        """Initializes the object (Constructor)."""
+        """这个方法用于初始化vector"""
         self.x = x
         self.y = y
 
@@ -9,29 +9,29 @@ class Vector:
         return f"Vector({self.x}, {self.y})"
 
     def __str__(self):
-        """User-friendly string representation (used by print())."""
+        """在打印时输出什么"""
         return f"({self.x}i + {self.y}j)"
 
     def __add__(self, other):
-        """Defines behavior for the '+' operator."""
+        """在+时返回什么"""
         if isinstance(other, Vector):
             return Vector(self.x + other.x, self.y + other.y)
         return NotImplemented
 
     def __sub__(self, other):
-        """Defines behavior for the '-' operator."""
+        """在-是返回什么"""
         return Vector(self.x - other.x, self.y - other.y)
 
     def __eq__(self, other):
-        """Defines behavior for the '==' operator."""
+        """判断是否相等（==）"""
         return self.x == other.x and self.y == other.y
     def __len__(self):
-        """Defines behavior for the len() function."""
+        """输出长度"""
         # For a vector, let's return the number of dimensions
         return 2
 
     def __call__(self, scalar):
-        """Allows the object to be called like a function: v(scalar)."""
+        """使得这个物体可以像函数一样被引用"""
         return Vector(self.x * scalar, self.y * scalar)
 
 # --- Usage ---
