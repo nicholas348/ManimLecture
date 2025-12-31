@@ -44,5 +44,3 @@ print(f"Is -5 valid? {Circle.is_valid_radius(-5)}")
 c2 = Circle.from_diameter(20)
 print(f"Radius from diameter 20: {c2.radius}")
 
-# LRU Cache
-print(f"Fibonacci(50): {fibonacci(50)}")
