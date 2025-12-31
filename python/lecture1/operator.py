@@ -179,8 +179,9 @@ id_is_same = (list_a is list_c) # 引用同一个对象，结果为 True
 """
 id_is_not = (list_a is not list_b) # 结果为 True
 
-# 注意：对于小整数或短字符串，Python 可能会进行优化，导致 is 结果为 True
-
+"""
+注意：对于小整数或短字符串，Python 可能会进行优化，导致 is 结果为 True
+"""
 int_1 = 100
 int_2 = 100
 int_is = (int_1 is int_2) # True (Python 优化)
