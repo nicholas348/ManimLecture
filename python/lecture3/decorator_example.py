@@ -1,3 +1,6 @@
+"""
+没有参数的装饰器
+"""
 def decorator_example(func):#用于接受一个函数作为参数
     def wrapper(*args, **kwargs):#用于接受任意数量的位置参数和关键字参数
         print("Before calling the function")#装饰部分
