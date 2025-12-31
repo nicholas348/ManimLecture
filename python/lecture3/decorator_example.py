@@ -13,8 +13,9 @@ def say_hello(name):
 say_hello("Alice")
 print("----------------------------------------------------")
 
-
-#带有参数的装饰器
+"""
+带有参数的装饰器
+"""
 def decorator_with_args(prefix):#可以是重复次数，也可以是日志前缀等
     def decorator(func):#用于接受一个函数作为参数
         def wrapper(*args, **kwargs):#用于接受任意数量的位置参数和关键字参数
