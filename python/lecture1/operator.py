@@ -4,6 +4,7 @@
 
 a = 15
 b = 4
+
 """
 加法 (+)
 """
@@ -44,12 +45,12 @@ result_pow = a ** 2   # 15 ** 2 = 225
 # 算术运算符的错误示例
 # print(5 / 0)  # 错误：ZeroDivisionError: division by zero
 # print(5 % 0)  # 错误：ZeroDivisionError: integer division or modulo by zero
-
+"""
 
 
 """
-# ============================== 2. 比较运算符 ==============================
-
+============================== 2. 比较运算符 ==============================
+"""
 x = 10
 y = 20
 z = 10
@@ -59,30 +60,38 @@ z = 10
 """
 bool_equal = (x == z)   # 10 等于 10，结果为 True
 
-# 不等于 (!=)
-
+"""
+不等于 (!=)
+"""
 bool_not_equal = (x != y)  # 10 不等于 20，结果为 True
 
-# 大于 (>)
-
+"""
+大于 (>)
+"""
 bool_greater = (y > x)    # 20 大于 10，结果为 True
 
-# 小于 (<)
-
+"""
+小于 (<)
+"""
 bool_less = (x < y)     # 10 小于 20，结果为 True
 
-# 大于等于 (>=)
-
+"""
+大于等于 (>=)
+"""
 bool_greater_equal = (x >= z) # 10 大于等于 10，结果为 True
 
-# 小于等于 (<=)
-
+"""
+小于等于 (<=)
+"""
 bool_less_equal = (y <= x)  # 20 小于等于 10，结果为 False
 
 """
  比较运算符的错误示例
  print(10 < 'hello') # 错误：TypeError: '<' not supported between instances of 'int' and 'str' (不同类型通常无法直接比较)
 """
+
+
+
 
 """
  ============================== 3. 逻辑运算符 ==============================
@@ -172,12 +181,21 @@ int_is = (int_1 is int_2) # True (Python 优化)
 my_list = ['apple', 'banana', 'cherry']
 my_string = "Hello World"
 
-# in：判断成员是否在序列中
+"""
+in：判断成员是否在序列中
+"""
+
 member_in_list = ('banana' in my_list)   # 结果为 True
 member_in_string = ('W' in my_string)    # 结果为 True
-# not in：判断成员是否不在序列中
+"""
+not in：判断成员是否不在序列中
+"""
 member_not_in_list = ('grape' not in my_list) # 结果为 True
 member_not_in_string = ('z' not in my_string)  # 结果为 True
-# 成员运算符的错误示例
+
+"""
+成员运算符的错误示例
+"""
+
 # print('a' in 123)  # 错误：TypeError: argument of type 'int' is not iterable (整数类型不可迭代)
 # print('a' not in None) # 错误：TypeError: argument of type 'NoneType' is not iterable (NoneType不可迭代)
