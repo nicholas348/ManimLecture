@@ -65,10 +65,9 @@ list_disorderd.sort()# list_disorderd =[1,2,4,6,9,15]
 """
 # print(my_list.remove('missing')) # 错误：ValueError: list.remove(x): x not in list
 # print(my_list[10])             # 错误：IndexError: list index out of range
-# list_from_tuple.sort(key=str)  # 错误：TypeError: '<' not supported between instances of 'str' and 'int' (如果元素类型不同)
 
 """
---- 7. 元组 (tuple) ---
+--- 元组 (tuple) ---
 """
 
 # 元组定义与类型转换
@@ -83,25 +82,48 @@ tuple_index = my_tuple.index(3.0)  # 查找元素索引 (结果: 2)
 tuple_len = len(my_tuple) # 长度 (结果: 3)
 tuple_index_access = my_tuple[0] # 索引取值 (结果: 1)
 
-# 元组的常见错误
+"""
+元组的常见错误
+"""
 # my_tuple[0] = 100        # 错误：TypeError: 'tuple' object does not support item assignment (元组是不可变类型)
 # my_tuple.append(4)       # 错误：AttributeError: 'tuple' object has no attribute 'append'
 # my_tuple.remove(1)       # 错误：AttributeError: 'tuple' object has no attribute 'remove'
 
-# --- 8. 集合 (set) ---
+"""
+--- 集合 (set) ---
+"""
 
-# 集合定义与类型转换
+
+"""
+集合定义与类型转换
+"""
 my_set = {1, 2, 'three', 4}
 #set_from_list = set([4, 5, 5, 6])  # list转set，自动去重 (结果: {4, 5, 6})
 empty_set = set() # 创建空集合必须使用set()，{}创建的是空字典
 
-# 集合的方法 (集合是可变类型，元素必须是不可变类型)
-my_set.add(5)  # 添加元素 (my_set: {1, 2, 4, 5, 'three'})
-my_set.remove(4)  # 移除元素，若元素不存在会报错 (my_set: {1, 2, 5, 'three'})
-my_set.discard(1)  # 移除元素，若元素不存在不会报错 (my_set: {2, 5, 'three'})
-set_pop = my_set.pop()  # 随机移除并返回一个元素 (返回: 2或5或'three')
-set_len = len(my_set) # 长度 (结果: 2或3)
-set_clear = my_set.clear() # 清空集合 (my_set: set())
+"""
+集合的方法 (集合是可变类型，元素必须是不可变类型)
+"""
+
+# 添加元素 (my_set: {1, 2, 4, 5, 'three'})
+my_set.add(5)
+
+# 移除元素，若元素不存在会报错 (my_set: {1, 2, 5, 'three'})
+my_set.remove(4)
+
+# 移除元素，若元素不存在不会报错 (my_set: {2, 5, 'three'})
+my_set.discard(1)
+
+
+set_pop = my_set.pop()
+
+# 长度 (结果: 2或3)
+set_len = len(my_set)
+
+# 清空集合 (my_set: set())
+set_clear = my_set.clear()
+
+
 
 set_A = {1, 2, 3}
 set_B = {3, 4, 5}
@@ -109,21 +131,26 @@ set_union = set_A.union(set_B)  # 并集 (结果: {1, 2, 3, 4, 5})
 set_intersection = set_A.intersection(set_B)  # 交集 (结果: {3})
 set_difference = set_A.difference(set_B)  # 差集 (结果: {1, 2})
 set_issubset = set_A.issubset({1, 2, 3, 4}) # 是否为子集 (结果: True)
+"""
+集合的常见错误
+"""
 
-# 集合的常见错误
 # my_set.add([1, 2])       # 错误：TypeError: unhashable type: 'list' (集合元素必须是不可变类型)
 # print(set_A[0])          # 错误：TypeError: 'set' object is not subscriptable (集合不支持索引操作)
 # print(set_A.remove(10))  # 错误：KeyError: 10 (remove找不到元素会报错)
 
 
 
-# --- 9. 字典 (dictionary) ---
+"""
+--- 字典 (dictionary) ---
+"""
 
 # 字典定义与类型转换 (字典是可变类型，以键值对存储)
 my_dict = {'name': 'Alice', 'age': 25, 'city': 'New York'}
 dict_from_pairs = dict([('a', 1), ('b', 2)])  # 从元组列表创建 (结果: {'a': 1, 'b': 2})
 dict_from_kwargs = dict(fruit='apple', color='red') # 使用关键字参数创建 (结果: {'fruit': 'apple', 'color': 'red'})
 empty_dict = {} # 创建空字典
+
 
 """
 字典的访问与方法
@@ -146,9 +173,12 @@ dict_values = my_dict.values()
 dict_items = my_dict.items()
 dict_len = len(my_dict) # 长度 (结果: 3)
 
+
 """
 字典的修改、添加与移除 (字典是可变类型)
 """
+
+
 # 修改现有键的值 (my_dict: {'name': 'Alice', 'age': 26, 'city': 'New York'})
 my_dict['age'] = 26
 
@@ -168,6 +198,7 @@ my_dict.clear()
 字典的常见错误
 """
 temp_dict = {'a': 1, 'b': 2}
+
 
 """
 print(temp_dict['c'])                 # 错误：KeyError: 'c' (尝试访问不存在的键)
