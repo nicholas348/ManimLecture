@@ -27,6 +27,7 @@ def mixed_arguments(arg1, *args, kw_only_arg, **kwargs):#混合输入
     print(f"kwargs: {kwargs}")
 mixed_arguments(1, 2, 3, kw_only_arg=" ", name="Bob", age=25)
 
+
 print("----------------------------------------------")
 def type_hint_example(name: str, age: int) -> str:#类型提示
     return f"{name} is {age} years old."

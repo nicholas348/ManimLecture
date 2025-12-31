@@ -1,4 +1,8 @@
-def absolute_value(x):#定义了一个计算绝对值的函数
+"""----------PART I 普通函数----------"""
+"""
+定义了一个计算绝对值的函数"""
+
+def absolute_value(x):
     if x < 0:
         return -x
     else:
@@ -7,11 +11,18 @@ def absolute_value(x):#定义了一个计算绝对值的函数
 absolute_value(-3) #返回3
 absolute_value(5)  #返回5
 
-def muti_variable_function(a, b):#定义了一个多个变量的函数
+"""
+定义了一个多个变量的函数
+"""
+def muti_variable_function(a, b):
     return a^2+b^2
 
 
-def factorial(n):#定义了一个计算阶乘的递归函数
+"""----------PART II 递归函数----------"""
+"""
+定义了一个计算阶乘的递归函数
+"""
+def factorial(n):
     if n == 0:
         return 1
     else:
