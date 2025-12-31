@@ -28,16 +28,21 @@ class Circle:
 
 # 5. @functools.lru_cache - Caches function results to save time on heavy tasks
 
+"""
+使用特例--- Usage Examples ---
+"""
 
-# --- Usage Examples ---
-
-# Property and Setter
+"""
+设置特征
+"""
 c = Circle(5)
 print(f"Initial Radius: {c.radius}")
 c.radius = 10  # Uses the setter
 print(f"Updated Radius: {c.radius}")
 
-# Static Method
+"""
+class的方法
+"""
 print(f"Is -5 valid? {Circle.is_valid_radius(-5)}")
 
 # Class Method

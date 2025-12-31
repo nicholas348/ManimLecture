@@ -1,4 +1,13 @@
+
 class Dog:#定义了一个名为Dog的类
+    dog_amount=0
+    def __new__(cls,breed, age):
+
+        #改变这个类的特征（例如个数）
+        print("Creating a new Dog instance")
+        cls.dog_amount+=1
+        return super().__new__(cls)
+
     def __init__(self,breed, age):#定义了一个类Dog的初始化方法，接受两个参数breed和age
         self.age = age
         self.breed = breed
