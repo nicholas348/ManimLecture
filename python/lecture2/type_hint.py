@@ -26,6 +26,10 @@ print("=== 测试 greet() 问候函数 ===")
 greet_result1 = greet("Guo Heng", 100)
 print(f"测试用例输出：{greet_result1}")
 
+
+greet_result1 = greet(1, 100)#会有爆黄，但是程序可以正常运行
+print(f"测试用例输出：{greet_result1}")
+
 print("=== 测试 process_data() 数据处理函数 ===")
 data_list = [10, 20, 30, 40, 50]
 process_result1 = process_data(data_list)
