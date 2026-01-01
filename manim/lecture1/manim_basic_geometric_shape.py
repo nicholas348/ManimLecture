@@ -21,17 +21,22 @@ class BasicShapes(Scene):
         #将正方形摆放在圆形左边
         square.next_to(circle, LEFT, buff=0.5)
 
-        # 3. Animations
-        # 'Create' draws the outline of the shape
+        """
+        动画"""
+        # 创造circle,写“circle"
         self.play(Create(circle), Write(Tex("Circle").next_to(circle, UP)))
+
+        #等待1秒
         self.wait(1)
 
-        # 'FadeIn' or 'DrawBorderThenFill'
+        # 淡入circle
         self.play(FadeIn(square), run_time=1.5)
         self.play(DrawBorderThenFill(triangle))
 
-        # 4. Transformations (The "Magic" of Manim)
-        # Morphing the circle into a star
+        self.wait(1)
+
+        """变换"""
+        #将circle变换为star
         star = Star(color=YELLOW).scale(1.5)
         self.play(ReplacementTransform(circle, star))
 
