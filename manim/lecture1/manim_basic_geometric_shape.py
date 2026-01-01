@@ -22,7 +22,8 @@ class BasicShapes(Scene):
         square.next_to(circle, LEFT, buff=0.5)
 
         """
-        动画"""
+        动画
+        """
         # 创造circle,写“circle"
         self.play(Create(circle), Write(Tex("Circle").next_to(circle, UP)))
 
