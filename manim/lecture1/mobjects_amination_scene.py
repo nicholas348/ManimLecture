@@ -33,6 +33,11 @@ class MobjectsAnimation(Scene):#scene
         """
         self.play(FadeOut(mobject1),Uncreate(mobject2),Unwrite(mobject3))
         self.wait(2)
+
+
+        """
+        文字以及公式
+        """
         text = MathTex(r"\iint_S (\nabla \times F) \cdot ds = \oint_{\partial S} F\cdot ds")
         self.play(Write(text))
         self.wait(3)

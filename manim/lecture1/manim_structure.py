@@ -1,13 +1,19 @@
 from manim import *
 class Structure(Scene):#scene
     def construct(self):
-        # 创造一个text 物品hello_world
+        """
+        创造一个text 物品hello_world
+        """
         hello_world = Tex("Hello, Manim!").scale(3)
 
-        # 渲染一个书写hello_world的动画
+        """
+        渲染一个书写hello_world的动画
+        """
         self.play(Write(hello_world))
 
-        # 等待2秒
+        """ 
+        等待2秒
+        """
         self.wait(2)
 
 
