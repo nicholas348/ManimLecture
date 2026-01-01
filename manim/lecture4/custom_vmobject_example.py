@@ -12,8 +12,9 @@ class Ball(Circle):
             t.move_to(
                 origin_coord+UP*(-dt^2/4+1)
             )
-        )
+        )这里有问题，改一下
         return self
+
 
 class test(Scene):
     def construct(self):

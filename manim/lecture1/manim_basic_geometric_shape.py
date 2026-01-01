@@ -15,8 +15,10 @@ class BasicShapes(Scene):
         #创建一个边长为2，颜色为红，透明度为1的三角形，同时将这个三角形向右移3个单位
         triangle = Triangle(color=RED).shift(RIGHT * 3)
 
-        # 2. Positioning
-        # We can move objects relative to each other or the screen
+        """
+        位置变换
+        """
+        #将正方形摆放在圆形左边
         square.next_to(circle, LEFT, buff=0.5)
 
         # 3. Animations
@@ -33,9 +35,4 @@ class BasicShapes(Scene):
         star = Star(color=YELLOW).scale(1.5)
         self.play(ReplacementTransform(circle, star))
 
-        # 5. Grouping and Moving
-        group = VGroup(square, star, triangle)
-        self.play(group.animate.shift(DOWN * 2).scale(0.5))
-        self.play(Rotate(group, angle=PI / 2))
 
-        self.wait(2)
