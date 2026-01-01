@@ -3,7 +3,10 @@
 
 ## 环境安装与配置
 
+**禁止使用python3.13或往上！！！！！！！！！**
+
 ### windows 安装
+
 
 首先按win+R启动“运行”。在打开栏输入`cmd`然后点击确定
 
@@ -17,10 +20,9 @@ powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | ie
 uv python install
 ```
 
-**禁止使用python3.14！！！！！！！！！**
 
 ``` bash
-uv init --python 3.13 manimations
+uv init --python 3.12 manimations
 ```
 
 ``` bash
