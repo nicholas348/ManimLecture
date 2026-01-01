@@ -21,5 +21,5 @@ class CoordSystem(Scene):
         # 3. Create an arrow from origin to the dot
         arrow = Arrow(ORIGIN, dot.get_center(), buff=0)
 
-        self.play(Create(arrow), FadeIn(dot), Write(label))
+        self.add(arrow, dot, label)
         self.wait()
