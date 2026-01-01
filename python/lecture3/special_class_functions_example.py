@@ -54,13 +54,38 @@ class MyClass:
     def __init__(self):
         self.public_data = "Everyone can see this"
         self._internal_data = "Please treat this as private"
+        self.__more_internal_data = "Please treat this as most private. This is heavily protected"
 
+    """
+    无下划线：普通方法
+    """
+    def normal_method(self):
+        return self.public_data
+
+
+    """
+    开发者不想让你引用的方法（可能随时都会改名或直接删掉）
+    不建议引用
+    """
+
+    """
+    单个下划线：保护方法
+    """
     def _internal_method(self):
         return self._internal_data
 
-    @staticmethod
-    def __more_internal_method():
-        return "this is heavily protected"
 
-print(MyClass._MyClass__more_internal_method())
-np.pi
+    """
+    二重下划线：加重保护
+    """
+    def __more_internal_method(self):
+        return self.__more_internal_data
+
+#调用普通方法
+print(MyClass.normal_method(self=MyClass()))
+
+#调用保护方法
+print(MyClass._internal_method(self=MyClass()))
+
+#调用加重保护方法
+print(MyClass._MyClass__more_internal_method(self=MyClass()))
