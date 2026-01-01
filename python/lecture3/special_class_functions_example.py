@@ -1,3 +1,6 @@
+import numpy as np
+
+
 class Vector:
     def __init__(self, x, y):
         """这个方法用于初始化vector"""
@@ -34,6 +37,7 @@ class Vector:
         """使得这个物体可以像函数一样被引用"""
         return Vector(self.x * scalar, self.y * scalar)
 
+
 # --- Usage ---
 v1 = Vector(2, 4)
 v2 = Vector(1, 3)
@@ -42,3 +46,21 @@ print(f"v1: {v1}")               # Uses __str__ -> (2i + 4j)
 print(f"Sum: {v1 + v2}")         # Uses __add__ -> (3i + 7j)
 print(f"Equal? {v1 == v2}")      # Uses __eq__  -> False
 print(f"Scaled: {v1(10)}")       # Uses __call__ -> (20i + 40j)
+
+
+
+
+class MyClass:
+    def __init__(self):
+        self.public_data = "Everyone can see this"
+        self._internal_data = "Please treat this as private"
+
+    def _internal_method(self):
+        return self._internal_data
+
+    @staticmethod
+    def __more_internal_method():
+        return "this is heavily protected"
+
+print(MyClass._MyClass__more_internal_method())
+np.pi
