@@ -1,0 +1,5 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/niuyingkai/PycharmProjects/lecture/manim/lecture1/media/videos/custom_mobject_example/720p30/partial_movie_files/BatteryTest/1987512680_2688965532_1019260386.mp4'
+file 'file:/Users/niuyingkai/PycharmProjects/lecture/manim/lecture1/media/videos/custom_mobject_example/720p30/partial_movie_files/BatteryTest/2538612922_887205173_688058504.mp4'
+file 'file:/Users/niuyingkai/PycharmProjects/lecture/manim/lecture1/media/videos/custom_mobject_example/720p30/partial_movie_files/BatteryTest/2538612922_2322652379_3255689019.mp4'
+file 'file:/Users/niuyingkai/PycharmProjects/lecture/manim/lecture1/media/videos/custom_mobject_example/720p30/partial_movie_files/BatteryTest/2538612922_2688965532_3635659813.mp4'
