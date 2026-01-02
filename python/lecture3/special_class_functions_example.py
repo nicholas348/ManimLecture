@@ -8,7 +8,7 @@ class Vector:
         self.y = y
 
     def __repr__(self):
-        """Official string representation for developers (used in console)."""
+        """在print是输出什么"""
         return f"Vector({self.x}, {self.y})"
 
     def __str__(self):
@@ -16,17 +16,17 @@ class Vector:
         return f"({self.x}i + {self.y}j)"
 
     def __add__(self, other):
-        """在+时返回什么"""
+        """在执行 + 运算时返回什么"""
         if isinstance(other, Vector):
             return Vector(self.x + other.x, self.y + other.y)
         return NotImplemented
 
     def __sub__(self, other):
-        """在-是返回什么"""
+        """在执行 - 运算是返回什么"""
         return Vector(self.x - other.x, self.y - other.y)
 
     def __eq__(self, other):
-        """判断是否相等（==）"""
+        """判断是否相等的条件（==）"""
         return self.x == other.x and self.y == other.y
     def __len__(self):
         """输出长度"""
