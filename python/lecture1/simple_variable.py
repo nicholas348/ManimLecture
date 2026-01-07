@@ -8,7 +8,7 @@
 my_first_int = 42
 my_second_int = 3
 my_third_int = 3 * (10**10) + 1  # 大整数
-my_fouth_int, my_fifth_int = -7, 0  # 负整数和零
+my_fourth_int, my_fifth_int = -7, 0  # 负整数和零
 int_from_bool = int(False)  # bool转int, False=0, True=1 (结果: 0)
 int_from_float = int(2.47)  # float转int, 截断小数部分 (结果: 2)
 int_from_neg_float = int(-2.54)  # 负float转int, 截断小数部分 (结果: -2)
@@ -91,8 +91,6 @@ string_len = len(first_string)  # 长度 (结果: 5)
 string_upper = first_string.upper()  # 转换为大写 (结果: 'HELLO')
 string_lower = string_upper.lower()  # 转换为小写 (结果: 'hello')
 string_strip = "  padded  ".strip()  # 移除两侧空白 (结果: 'padded')
-string_split = "a,b,c".split(',')  # 分割成列表 (结果: ['a', 'b', 'c'])
-string_join = "-".join(['a', 'b', 'c'])  # 列表元素用字符串连接 (结果: 'a-b-c')
 string_replace = "Python".replace("P", "J") # 替换 (结果: 'Jython')
 string_find = "apple".find("pl") # 查找子串，返回起始索引 (结果: 2)
 string_startswith = "file.txt".startswith("file") # 检查开头 (结果: True)
@@ -102,7 +100,7 @@ string_slice = first_string[1:4] # 切片取值 (结果: 'ell')
 """
 字符串的常见错误
 first_string[0] = 'h'    # 错误：TypeError: 'str' object does not support item assignment (字符串是不可变类型)
-print("abc" - "a")       # 错误：TypeError: unsupported operand type(s) for -: 'str' and 'str'
+z
 print(first_string[10])  # 错误：IndexError: string index out of range
 """
 
