@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd15dcff-e3c3-4e8f-a2c2-3aad3dfeaf8e" name="Changes" comment="convert some of the operator.py into operator_example.ipynb. changed some file into original python format">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/lecture1/operator_example.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python/lecture1/operator_example.ipynb" afterDir="false" />
-    </list>
+    <list default="true" id="bd15dcff-e3c3-4e8f-a2c2-3aad3dfeaf8e" name="Changes" comment="convert some of the operator.py into operator_example.ipynb" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,12 +89,29 @@
       <option name="project" value="LOCAL" />
       <updated>1767756381303</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="convert some of the operator.py into operator_example.ipynb">
+      <option name="closed" value="true" />
+      <created>1767760268071</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1767760268071</updated>
+    </task>
+    <task id="LOCAL-00003" summary="convert some of the operator.py into operator_example.ipynb">
+      <option name="closed" value="true" />
+      <created>1767760358825</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1767760358826</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="convert some of the operator.py into operator_example.ipynb. changed some file into original python format" />
-    <option name="LAST_COMMIT_MESSAGE" value="convert some of the operator.py into operator_example.ipynb. changed some file into original python format" />
+    <MESSAGE value="convert some of the operator.py into operator_example.ipynb" />
+    <option name="LAST_COMMIT_MESSAGE" value="convert some of the operator.py into operator_example.ipynb" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
