@@ -9,10 +9,6 @@ my_first_int = 42
 my_second_int = 3
 my_third_int = 3 * (10**10) + 1  # 大整数
 my_fouth_int, my_fifth_int = -7, 0  # 负整数和零
-int_from_bool = int(False)  # bool转int, False=0, True=1 (结果: 0)
-int_from_float = int(2.47)  # float转int, 截断小数部分 (结果: 2)
-int_from_neg_float = int(-2.54)  # 负float转int, 截断小数部分 (结果: -2)
-int_from_string = int("89")  # string转int (结果: 89)
 
 """
 整数的算术方法
@@ -47,8 +43,6 @@ print(42 / 0)           # 错误：ZeroDivisionError: division by zero
 first_float = 1.5
 second_float = 0.5
 float_scientific = 3e10  # 科学计数法 (结果: 30000000000.0)
-float_from_int = float(3)  # int转float (结果: 3.0)
-float_from_string = float("3.14")  # string转float (结果: 3.14)
 float_from_scientific_str = float("3e10") # string转float (结果: 30000000000.0)
 
 """
@@ -62,6 +56,9 @@ float_floordiv = first_float // second_float  # 整除，结果仍为浮点数 (
 float_mod = first_float % second_float  # 取模 (结果: 0.0)
 float_pow = first_float ** second_float  # 乘方 (结果: 1.224744871391...)
 float_is_integer = (3.0).is_integer() # 判断浮点数是否可以精确表示为整数 (结果: True)
+float_from_int = float(3)  # int转float (结果: 3.0)
+int_from_float = int(2.47)  # float转int, 截断小数部分 (结果: 2)
+int_from_neg_float = int(-2.54)  # 负float转int, 截断小数部分 (结果: -2)
 
 """
 浮点数的常见错误
@@ -81,6 +78,8 @@ first_string = "Hello"
 second_string = 'World'
 str_from_int = str(123)  # int转str (结果: '123')
 str_from_float = str(45.67)  # float转str (结果: '45.67')
+int_from_string = int("89")  # string转int (结果: 89)
+float_from_string = float("3.14")  # string转float (结果: 3.14)
 
 """
 字符串的方法
@@ -120,6 +119,8 @@ bool_from_zero = bool(0)  # 0转False (结果: False)
 bool_from_neg = bool(-1)  # 负数转True (结果: True)
 bool_from_empty_str = bool("")  # 空字符串转False (结果: False)
 bool_from_non_empty_str = bool("False")  # 非空字符串转True (结果: True)
+
+int_from_bool = int(False)  # bool转int, False=0, True=1 (结果: 0)
 """
 布尔值的逻辑方法
 """
