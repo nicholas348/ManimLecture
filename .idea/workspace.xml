@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd15dcff-e3c3-4e8f-a2c2-3aad3dfeaf8e" name="Changes" comment="changed  lecture1 to ipynb">
-      <change afterPath="$PROJECT_DIR$/manim/lecture2/latex_example.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/lecture1/first_python_program.py" afterDir="false" />
+    <list default="true" id="bd15dcff-e3c3-4e8f-a2c2-3aad3dfeaf8e" name="Changes" comment="added missing manim python">
+      <change afterPath="$PROJECT_DIR$/python/lecture1/loop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/lecture1/operator.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/python/lecture1/operator_example.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/lecture1/simple_variable.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/lecture1/if_else.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python/lecture1/if_else.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/lecture1/input_and_output.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python/lecture1/input_and_output.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/lecture1/loop.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python/lecture1/loop.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/lecture1/operator_example.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/python/lecture1/simple_variable.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/lecture1/simple_variable.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,34 +18,34 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jupyter Notebook" />
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "nicholas348"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;nicholas348&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/nicholas348/Manim_Lecture.git",
-    "accountId": "ae83a2ee-44e6-4b94-ae3d-ca75336bb8bc"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/nicholas348/Manim_Lecture.git&quot;,
+    &quot;accountId&quot;: &quot;ae83a2ee-44e6-4b94-ae3d-ca75336bb8bc&quot;
   }
-}]]></component>
+}</component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="37mDTi4e3DgGOsbALYJKG8daSBG" />
   <component name="ProjectLevelVcsManager">
     <OptionsSetting value="false" id="Update" />
@@ -69,9 +62,15 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "nicky-niu",
+    "last_opened_file_path": "/Users/niuyingkai/PycharmProjects/lecture/python/lecture1",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/python/lecture1" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
