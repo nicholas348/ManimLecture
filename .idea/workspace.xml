@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd15dcff-e3c3-4e8f-a2c2-3aad3dfeaf8e" name="Changes" comment="convert operator.py into operator_example.ipynb">
-      <change afterPath="$PROJECT_DIR$/python/lecture1/loop_example.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/lecture1/simple_variable.ipynb" afterDir="false" />
+    <list default="true" id="bd15dcff-e3c3-4e8f-a2c2-3aad3dfeaf8e" name="Changes" comment="convert loop.py into loop_example.ipynb">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/lecture1/loop.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/lecture1/simple_variable.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python/lecture1/simple_variable.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/lecture1/simple_variable.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/lecture1/simple_variable.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,14 +134,23 @@
       <option name="project" value="LOCAL" />
       <updated>1767760855976</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="convert loop.py into loop_example.ipynb">
+      <option name="closed" value="true" />
+      <created>1767761204695</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1767761204695</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="convert some of the operator.py into operator_example.ipynb. changed some file into original python format" />
     <MESSAGE value="convert some of the operator.py into operator_example.ipynb" />
     <MESSAGE value="convert operator.py into operator_example.ipynb" />
-    <option name="LAST_COMMIT_MESSAGE" value="convert operator.py into operator_example.ipynb" />
+    <MESSAGE value="convert loop.py into loop_example.ipynb" />
+    <option name="LAST_COMMIT_MESSAGE" value="convert loop.py into loop_example.ipynb" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
