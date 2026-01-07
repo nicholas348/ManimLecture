@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd15dcff-e3c3-4e8f-a2c2-3aad3dfeaf8e" name="Changes" comment="convert some of simple_variable.py into simple_variable.ipynb">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python/lecture1/simple_variable.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python/lecture1/simple_variable.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python/lecture1/simple_variable.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/lecture1/simple_variable.py" afterDir="false" />
     </list>
@@ -156,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767762406238</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="convert some of simple_variable.py into simple_variable.ipynb">
+      <option name="closed" value="true" />
+      <created>1767763698908</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1767763698908</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

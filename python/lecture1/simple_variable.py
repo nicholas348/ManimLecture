@@ -56,9 +56,6 @@ float_floordiv = first_float // second_float  # 整除，结果仍为浮点数 (
 float_mod = first_float % second_float  # 取模 (结果: 0.0)
 float_pow = first_float ** second_float  # 乘方 (结果: 1.224744871391...)
 float_is_integer = (3.0).is_integer() # 判断浮点数是否可以精确表示为整数 (结果: True)
-float_from_int = float(3)  # int转float (结果: 3.0)
-int_from_float = int(2.47)  # float转int, 截断小数部分 (结果: 2)
-int_from_neg_float = int(-2.54)  # 负float转int, 截断小数部分 (结果: -2)
 
 """
 浮点数的常见错误
