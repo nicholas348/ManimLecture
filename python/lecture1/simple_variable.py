@@ -62,9 +62,7 @@ int_from_neg_float = int(-2.54)  # 负float转int, 截断小数部分 (结果: -
 
 """
 浮点数的常见错误
-print(float("xyz"))     # 错误：ValueError: could not convert string to float: 'xyz'
-print(float("56.78abc")) # 错误：ValueError: could not convert string to float: '56.78abc'
-print(float(""))        # 错误：ValueError: could not convert string to float: ''
+
 print(5.0 / 0)          # 结果为 float('inf')，不是错误，但需注意
 """
 
@@ -100,6 +98,9 @@ string_index = first_string[1] # 索引取值 (结果: 'e')
 string_slice = first_string[1:4] # 切片取值 (结果: 'ell')
 """
 字符串的常见错误
+print(float("xyz"))     # 错误：ValueError: could not convert string to float: 'xyz'
+print(float("56.78abc")) # 错误：ValueError: could not convert string to float: '56.78abc'
+print(float(""))        # 错误：ValueError: could not convert string to float: ''
 first_string[0] = 'h'    # 错误：TypeError: 'str' object does not support item assignment (字符串是不可变类型)
 print("abc" - "a")       # 错误：TypeError: unsupported operand type(s) for -: 'str' and 'str'
 print(first_string[10])  # 错误：IndexError: string index out of range
