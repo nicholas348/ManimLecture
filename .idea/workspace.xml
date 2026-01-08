@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28aefb5b-f638-4d0a-a4e9-0d1dfa62c8ad" name="Changes" comment="add function_example.ipynb">
+    <list default="true" id="28aefb5b-f638-4d0a-a4e9-0d1dfa62c8ad" name="Changes" comment="changed  lecture1 to ipynb">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manim/lecture2/latex_example.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/manim/lecture2/latex_example.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python/lecture1/simple_variable.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python/lecture1/simple_variable.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +22,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="nicky-niu" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="McpProjectServerCommands">
@@ -33,7 +39,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "git-widget-placeholder": "nicky-niu"
+    "git-widget-placeholder": "main",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="TaskManager">
