@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28aefb5b-f638-4d0a-a4e9-0d1dfa62c8ad" name="Changes" comment="changed  lecture1 to ipynb">
+    <list default="true" id="28aefb5b-f638-4d0a-a4e9-0d1dfa62c8ad" name="Changes" comment="changed simple_variable.ipynb">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manim/lecture2/latex_example.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/manim/lecture2/latex_example.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/lecture1/simple_variable.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python/lecture1/simple_variable.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/lecture2/function.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/lecture2/function.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/lecture2/function_example.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python/lecture2/function_example.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="nicky-niu" />
+        <entry key="$PROJECT_DIR$" value="5a97bfd3780298af5b715df549966593265ab3ae" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,12 +37,12 @@
     <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "git-widget-placeholder": "main",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="TaskManager">
     <task id="LOCAL-00001" summary="add function_example.ipynb">
       <option name="closed" value="true" />
@@ -52,11 +52,20 @@
       <option name="project" value="LOCAL" />
       <updated>1767766581697</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="changed simple_variable.ipynb">
+      <option name="closed" value="true" />
+      <created>1767885860977</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1767885860977</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add function_example.ipynb" />
-    <option name="LAST_COMMIT_MESSAGE" value="add function_example.ipynb" />
+    <MESSAGE value="changed simple_variable.ipynb" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed simple_variable.ipynb" />
   </component>
 </project>
