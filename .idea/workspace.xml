@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28aefb5b-f638-4d0a-a4e9-0d1dfa62c8ad" name="Changes" comment="changed function.py into function_example.ipynb">
-      <change afterPath="$PROJECT_DIR$/python/lecture2/functions_with_args.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/lecture2/variable_collection.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/lecture2/functions_with_args.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/lecture2/functions_with_args.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/lecture2/type_hint.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="5a97bfd3780298af5b715df549966593265ab3ae" />
+        <entry key="$PROJECT_DIR$" value="41ef08240fab82b56b05cb15a7e1dc778a5e38fa" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -38,12 +36,12 @@
     <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "git-widget-placeholder": "aa4db48f",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="TaskManager">
     <task id="LOCAL-00001" summary="add function_example.ipynb">
       <option name="closed" value="true" />
