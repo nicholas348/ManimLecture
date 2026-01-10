@@ -1,6 +1,3 @@
-import numpy as np
-
-
 class Vector:
     def __init__(self, x, y):
         """这个方法用于初始化vector"""
@@ -47,9 +44,7 @@ print(f"Sum: {v1 + v2}")         # Uses __add__ -> (3i + 7j)
 print(f"Equal? {v1 == v2}")      # Uses __eq__  -> False
 print(f"Scaled: {v1(10)}")       # Uses __call__ -> (20i + 40j)
 
-
-
-
+#保护方法
 class MyClass:
     def __init__(self):
         self.public_data = "Everyone can see this"
@@ -62,7 +57,6 @@ class MyClass:
     def normal_method(self):
         return self.public_data
 
-
     """
     开发者不想让你引用的方法（可能随时都会改名或直接删掉）
     不建议引用
@@ -73,7 +67,6 @@ class MyClass:
     """
     def _internal_method(self):
         return self._internal_data
-
 
     """
     二重下划线：加重保护

@@ -26,7 +26,6 @@ class Circle:
     def from_diameter(cls, diameter: float):
         return cls(diameter / 2)
 
-# 5. @functools.lru_cache - Caches function results to save time on heavy tasks
 
 """
 使用特例--- Usage Examples ---
