@@ -2,7 +2,7 @@ class Vector:
     def __init__(self, x, y):
         """这个方法用于初始化vector"""
         self.x = x
-        self.y = y
+        self.y = yddddd
 
     def __repr__(self):
         """在print是输出什么"""
@@ -10,7 +10,7 @@ class Vector:
 
     def __str__(self):
         """在打印时输出什么"""
-        return f"({self.x}i + {self.y}j)"
+        return f"({self.x}, {self.y})"
 
     def __add__(self, other):
         """在执行 + 运算时返回什么"""
@@ -23,7 +23,7 @@ class Vector:
         return Vector(self.x - other.x, self.y - other.y)
 
     def __eq__(self, other):
-        """判断是否相等的条件（==）"""
+        """判断是否相等的条件（==)"""
         return self.x == other.x and self.y == other.y
     def __len__(self):
         """输出长度"""
@@ -33,16 +33,20 @@ class Vector:
     def __call__(self, scalar):
         """使得这个物体可以像函数一样被引用"""
         return Vector(self.x * scalar, self.y * scalar)
+    def __mul__(self, other):
+        return Vector(self.x*other, self.y*other)
+
 
 
 # --- Usage ---
 v1 = Vector(2, 4)
 v2 = Vector(1, 3)
 
-print(f"v1: {v1}")               # Uses __str__ -> (2i + 4j)
-print(f"Sum: {v1 + v2}")         # Uses __add__ -> (3i + 7j)
+print(f"v1: {v1}")               # Uses __str__ -> (2, 4)
+print(f"Sum: {v1 + v2}")         # Uses __add__ -> (3, 7)
 print(f"Equal? {v1 == v2}")      # Uses __eq__  -> False
-print(f"Scaled: {v1(10)}")       # Uses __call__ -> (20i + 40j)
+print(f"Scaled: {v1(10)}")       # Uses __call__ -> (20 , 40)
+print(f"Scaled: {v1*10}")       # Uses __mul__ -> (20 , 40)
 
 #保护方法
 class MyClass:
