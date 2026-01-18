@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="28aefb5b-f638-4d0a-a4e9-0d1dfa62c8ad" name="Changes" comment="changed loop_example.ipynb">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/lecture2/functions_with_args.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python/lecture2/functions_with_args.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,14 +46,14 @@
     <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.first_python_program.executor": "Run",
-    "Python.python_file_1.executor": "Run",
-    "git-widget-placeholder": "nicky-niu",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.first_python_program.executor&quot;: &quot;Run&quot;,
+    &quot;Python.python_file_1.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;nicky-niu&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python.terminal_control_example">
     <configuration name="first_python_program" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ManimLecture" />
@@ -128,8 +127,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.terminal_control_example" />
-        <item itemvalue="Python.first_python_program" />
         <item itemvalue="Python.python_file_1" />
+        <item itemvalue="Python.first_python_program" />
+        <item itemvalue="Python.terminal_control_example" />
+        <item itemvalue="Python.first_python_program" />
       </list>
     </recent_temporary>
   </component>
