@@ -4,8 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28aefb5b-f638-4d0a-a4e9-0d1dfa62c8ad" name="Changes" comment="changed loop_example.ipynb">
+    <list default="true" id="28aefb5b-f638-4d0a-a4e9-0d1dfa62c8ad" name="Changes" comment="add lambda functions in function_example.ipynb">
+      <change afterPath="$PROJECT_DIR$/python/lecture3/common_decorator.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/lecture3/decorator_example.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/lecture3/error_raising_example.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/lecture3/special_class_functions_example.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2026_1_2,_12_00_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2026_1_2__12_00__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/lecture2/function_example.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python/lecture2/function_example.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/lecture2/functions_with_args.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python/lecture2/functions_with_args.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/lecture2/variable_collection.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python/lecture2/variable_collection.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/lecture3/common_decorator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/lecture3/decorator_example.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/lecture3/error_raising_example.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/lecture3/special_class_functions_example.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +30,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jupyter Notebook" />
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
@@ -38,18 +53,36 @@
     &quot;state&quot;: &quot;OPEN&quot;
   }
 }</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/nicholas348/ManimLecture.git&quot;,
+    &quot;accountId&quot;: &quot;ae83a2ee-44e6-4b94-ae3d-ca75336bb8bc&quot;
+  }
+}</component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="38ezRRNIaR0sPrQPFqxQL5eUwAW" />
   <component name="ProjectLevelVcsManager">
     <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Python.first_python_program.executor&quot;: &quot;Run&quot;,
     &quot;Python.python_file_1.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;nicky-niu&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
@@ -134,6 +167,13 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-3944b0c99280-6d6dccd035ac-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.30387.127" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="TaskManager">
     <task id="LOCAL-00001" summary="add function_example.ipynb">
       <option name="closed" value="true" />
@@ -215,7 +255,22 @@
       <option name="project" value="LOCAL" />
       <updated>1768641136189</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add lambda functions in function_example.ipynb">
+      <option name="closed" value="true" />
+      <created>1768731903663</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1768731903663</updated>
+    </task>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="28aefb5b-f638-4d0a-a4e9-0d1dfa62c8ad" name="Changes" comment="add lambda functions in function_example.ipynb" />
+      <created>1769174816460</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1769174816460</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -237,6 +292,15 @@
     <MESSAGE value="deleted broken variable_collection.ipynb" />
     <MESSAGE value="changed variable_collection.ipynb" />
     <MESSAGE value="changed loop_example.ipynb" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed loop_example.ipynb" />
+    <MESSAGE value="add lambda functions in function_example.ipynb" />
+    <option name="LAST_COMMIT_MESSAGE" value="add lambda functions in function_example.ipynb" />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
   </component>
 </project>
