@@ -5,22 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28aefb5b-f638-4d0a-a4e9-0d1dfa62c8ad" name="Changes" comment="add lambda functions in function_example.ipynb">
-      <change afterPath="$PROJECT_DIR$/python/lecture3/common_decorator.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/lecture3/decorator_example.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/lecture3/error_raising_example.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/lecture3/special_class_functions_example.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2026_1_2,_12_00_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2026_1_2__12_00__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/lecture2/function_example.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python/lecture2/function_example.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/lecture2/functions_with_args.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python/lecture2/functions_with_args.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/lecture2/variable_collection.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python/lecture2/variable_collection.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/lecture3/common_decorator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/lecture3/decorator_example.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/lecture3/error_raising_example.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/lecture3/special_class_functions_example.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/lecture3/error_raising_example.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python/lecture3/error_raising_example.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,18 +61,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.first_python_program.executor&quot;: &quot;Run&quot;,
-    &quot;Python.python_file_1.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;nicky-niu&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.first_python_program.executor": "Run",
+    "Python.python_file_1.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Python.terminal_control_example">
     <configuration name="first_python_program" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ManimLecture" />
