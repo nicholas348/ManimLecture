@@ -1,44 +1,40 @@
-from manim import *
-
+from manimlib import *
 
 class BasicShapes(Scene):
     def construct(self):
-        """
-        创建几何形状
-        """
-        #创建一个半径为1，颜色为蓝色，透明度为0.5的圆
+        # 1. Create Geometric Objects
         circle = Circle(radius=1.0, color=BLUE, fill_opacity=0.5)
-
-        #创建一个边长位2，颜色为绿，透明度为1的圆
         square = Square(side_length=2.0, color=GREEN)
+        triangle = Triangle(color=RED,fill_opacity=0.3).shift(RIGHT * 3)
+        label = Text("Circle",font = "Times New Roman").next_to(circle, UP)
 
-        #创建一个边长为2，颜色为红，透明度为1的三角形，同时将这个三角形向右移3个单位
-        triangle = Triangle(color=RED).shift(RIGHT * 3)
+        # 2. Positioning
+        # We can move objects relative to each other or the screen
+        square.next_to(circle, LEFT, buff=1)
 
-        """
-        位置变换
-        """
-        #将正方形摆放在圆形左边
-        square.next_to(circle, LEFT, buff=0.5)
-
-        """
-        动画
-        """
-        # 创造circle,写“circle"
-        self.play(Create(circle), Write(Tex("Circle").next_to(circle, UP)))
-
-        #等待1秒
+        # 3. Animations
+        # 'ShowCreation' draws the outline of the shape
+        self.play(
+            ShowCreation(circle), 
+            Write(label
+                ),
+            run_time = 1
+        )
         self.wait(1)
 
-        # 淡入circle
+        # 'FadeIn' or 'DrawBorderThenFill'
         self.play(FadeIn(square), run_time=1.5)
         self.play(DrawBorderThenFill(triangle))
 
-        self.wait(1)
+        # 4. Transformations (The "Magic" of Manim)
+        # Morphing the circle into a pentagon
+        pentagon = RegularPolygon(n = 5, color = YELLOW, fill_opacity = 0.3)
+        self.play(ReplacementTransform(circle, pentagon))
 
-        """变换"""
-        #将circle变换为star
-        star = Star(color=YELLOW).scale(1.5)
-        self.play(ReplacementTransform(circle, star))
-
-
+        # 5. Grouping and Moving
+        group = VGroup(square, pentagon, triangle, label)
+        self.wait()
+        self.play(group.animate.shift(DOWN * 2).scale(2))
+        self.wait()
+        self.play(group.animate.shift(UP * 2).rotate(PI/2).scale(1/3))
+        self.wait(2)

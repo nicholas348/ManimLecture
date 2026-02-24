@@ -1,21 +1,20 @@
-from manim import *
+from manimlib import *
 
 
 class Intro3D(ThreeDScene):
     def construct(self):
         # 1. Initialize axes and a 3D shape
         axes = ThreeDAxes()
-        sphere = Sphere(radius=2, fill_opacity=0.7).set_color(BLUE)
+        sphere = Sphere(radius=2).set_color(BLUE).set_opacity(0.7)
 
         # 2. Set the camera angle
         # phi: angle from the z-axis (vertical)
         # theta: rotation around the z-axis (horizontal)
-        self.set_camera_orientation(phi=75 * DEGREES, theta=-45 * DEGREES)
+        self.camera.frame.set_euler_angles(theta=-45 * DEGREES, phi=75 * DEGREES)
 
         self.add(axes, sphere)
-
-        # 以0.1的速率旋转相机,面对中心
-        self.begin_ambient_camera_rotation(rate=0.1)
+        # This tells the frame to rotate its theta angle by 0.1 radians every second
+        self.camera.frame.add_updater(lambda m, dt: m.increment_theta(0.1 * dt))
         self.wait(3)
-        self.stop_ambient_camera_rotation()
+        self.camera.frame.clear_updaters()
         
