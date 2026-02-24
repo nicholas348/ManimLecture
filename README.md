@@ -9,20 +9,25 @@
 
 ### mac 安装
 
-1. 安装 homebrew
+#### 1. 安装 homebrew
 
 在pycharm(下简称pc)终端输入
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-2. 使用 brew 下载 manim
+如果显示安装时间过长，请使用镜像源
+```bash
+/bin/bash -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"
+```
+
+#### 2. 使用 brew 下载 manim
 
 在pc终端中输入
 ```bash
 brew install manim 
 ```
-3. 在 PyCharm 中安装
+#### 3. 在 PyCharm 中安装
 
 ```aiignore
 settings-> python-> interpreter-> + ->搜索manim->install package->ok->ok

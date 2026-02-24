@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28aefb5b-f638-4d0a-a4e9-0d1dfa62c8ad" name="Changes" comment="add lambda functions in function_example.ipynb">
+    <list default="true" id="28aefb5b-f638-4d0a-a4e9-0d1dfa62c8ad" name="Changes" comment="refined error_raising_example.ipynb">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/lecture3/error_raising_example.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python/lecture3/error_raising_example.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,18 +60,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.first_python_program.executor": "Run",
-    "Python.python_file_1.executor": "Run",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.first_python_program.executor&quot;: &quot;Run&quot;,
+    &quot;Python.python_file_1.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python.terminal_control_example">
     <configuration name="first_python_program" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ManimLecture" />
@@ -256,7 +255,15 @@
       <option name="presentableId" value="Default" />
       <updated>1769174816460</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="refined error_raising_example.ipynb">
+      <option name="closed" value="true" />
+      <created>1770009086221</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1770009086221</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -279,7 +286,8 @@
     <MESSAGE value="changed variable_collection.ipynb" />
     <MESSAGE value="changed loop_example.ipynb" />
     <MESSAGE value="add lambda functions in function_example.ipynb" />
-    <option name="LAST_COMMIT_MESSAGE" value="add lambda functions in function_example.ipynb" />
+    <MESSAGE value="refined error_raising_example.ipynb" />
+    <option name="LAST_COMMIT_MESSAGE" value="refined error_raising_example.ipynb" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
