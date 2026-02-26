@@ -1,0 +1,5 @@
+manim~=0.19.1
+colour~=0.1.5
+numpy~=2.4.1
+matplotlib~=3.10.8
+scipy>=1.17.0
